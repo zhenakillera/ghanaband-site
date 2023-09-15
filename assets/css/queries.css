@@ -1,3 +1,5 @@
+/* heading */
+
 @media screen and (min-width: 968px) {
   :root {  
     --h1-font-size: 3rem;
@@ -5,5 +7,27 @@
     --h2-font-size: 1.25rem;
     --regular-font-size: 1rem;
     --small-font-size: .875rem;
+  }
+}
+
+
+/* menu */
+
+@media screen and (max-width: 768px){
+  .nav__menu{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2.5rem 0 0;
+    text-align: center;
+    background-color: var(--body-color);
+    transition: .4s;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    border-radius: .4rem;
+    border-color: var(--black);
+    z-index: var(--z-fixed);
   }
 }
