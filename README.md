@@ -1,4 +1,4 @@
-#### GHANA BAND LANDING PAGE
+#### GHANA BAND landing page
 
 pretty real website for pretty fake band
 
