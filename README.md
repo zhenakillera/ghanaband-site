@@ -1,4 +1,4 @@
-#### ghanaband_site
+#### GHANA BAND LANDING PAGE
 
 pretty real website for pretty fake band
 
