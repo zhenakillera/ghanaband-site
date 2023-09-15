@@ -1,0 +1,7 @@
+/* fonts.google.com */
+/*Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,600&display=swap');
+
+@import url("variables.css");
+@import url("queries.css");
+@import url("main.css");

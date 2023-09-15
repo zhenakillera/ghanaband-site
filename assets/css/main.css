@@ -1,0 +1,25 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--regular-font-size);
+  background-color: var(--body-color);
+  color: var(--black);
+  line-height: 1.6;
+}
+
+h1,h2,h3,ul,p {
+  margin: 0;
+}
+
+h1,h2,h3 {
+  font-weight: var(--font-semi-bold);
+  color: var(--black);
+}

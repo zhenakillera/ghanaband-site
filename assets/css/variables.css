@@ -1,0 +1,35 @@
+/* css variables */
+:root {
+  --header-height: 3rem;
+
+  /* color variables */
+  --black: #32292F;
+  --tangerine: #E58F65;
+  --dark-tangerine: #DE743F;
+  --body-color: #F0F7F4;
+
+  /* font variables */
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h2-font-size: 1.125rem;
+  --regular-font-size: .938rem;
+  --small-font-size: .813rem;
+
+  --font-heavy: 700;
+  --font-semi-bold: 600;
+  --font-light: 300;
+
+
+  /* margenes */
+
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
