@@ -54,7 +54,7 @@ function scrollHeader(){
 
   // The scroll is greater than 200 viewport height => 
   // add the scroll-header class to the header tag
-  if(this.scrollY >= 200) {
+  if(this.scrollY >= 10) {
     nav.classList.add('scroll-header')
   } else {
     nav.classList.remove('scroll-header')

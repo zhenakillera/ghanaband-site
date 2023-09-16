@@ -21,10 +21,14 @@
 
 .nav__logo:hover {
   color: var(--dark-tangerine);
+  transition: .2s;
+
 }
 
 .nav__link:hover {
   color: var(--dark-tangerine);
+  transition: .2s;
+
 }
 
 .nav__toggle {
