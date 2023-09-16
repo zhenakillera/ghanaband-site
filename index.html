@@ -16,16 +16,22 @@
 </head>
 
 <body>
+  <!-- scrolltop btt -->
+  <a href="#" class="scrolltop" id="scrolltop">
+    <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+  </a>
+
+  <!-- header -->
   <header class="l-header" id="header">
     <nav class="nav bd-container">
       <a href="#" class="nav__logo">Ghana</a>
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
           <li class="nav__item"><a href="#shows" class="nav__link">Shows</a></li>
+          <li class="nav__item"><a href="#merch" class="nav__link">Merch</a></li>
           <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
         </ul>
       </div>
 
@@ -35,17 +41,82 @@
     </nav>
   </header>
 
+  <!-- content -->
   <main class="l-main">
+
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__img">
+          <img src="assets/img/guitar.png" alt="guitar pic">
+        </div>
+        
+        <div class="home__data">
+          <h1 class="home__title">Ghana</h1>
+          <p class="home__descr">Indie Jazz from the heart of St. Petersburg</p>
+          <a href="" class="button">Get Tickets</a>
+        </div>
+        
+      </div>
+    </section>
+    
+    <!-- shows -->
+    <section class="shows section bd-container" id="shows">
+
+    </section>
+
+
+    <!-- merch -->
+    <section class="merch section bd-container" id="merch">
+      <h2 class="section-title">Merchandise</h2>
+      <div class="march-container bd-grid">
+
+        <div class="merch__data">
+          <img src="assets/img/tickets.png" alt="merch thumbnail" class="merch__img">
+          <h3 class="merch__title">Hoodie</h3>
+          <a href="#" class="button button-link">Go Shopping</a>
+        </div>
+
+        <div class="merch__data">
+          <img src="assets/img/tickets.png" alt="merch thumbnail" class="merch__img">
+          <h3 class="merch__title">Vynil</h3>
+          <a href="#" class="button button-link">Go Shopping</a>
+        </div>
+
+        <div class="merch__data">
+          <img src="assets/img/tickets.png" alt="merch thumbnail" class="merch__img">
+          <h3 class="merch__title">Notepad</h3>
+          <a href="#" class="button button-link">Go Shopping</a>
+        </div>
+
+        <a href="#" class="button button-link more">More...</a>
+        
+
+      </div>
+    </section>
+
+
+
+
+    <section class="about section bd-container" id="about">
+
+    </section>
+    
 
   </main>
 
+
+  <!-- footer -->
   <footer class="footer section">
 
   </footer>
 
+
   <!-- scrollrevealjs.org -->
   <script src="https://unpkg.com/scrollreveal"></script>
 
+
+  <!-- js -->
   <script src="assets/js/main.js"></script>
 
 </body>
