@@ -1,8 +1,7 @@
 #### GHANA BAND landing page
-
 pretty real website for pretty fake band
 
-mobile-first
+responsive, mobile-first, vanila js/css-only
 
 shout out to:
 - boxicons
