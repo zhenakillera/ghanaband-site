@@ -8,3 +8,4 @@ shout out to:
 - boxicons
 - scrollrevealjs
 - google fonts
+- freepik
