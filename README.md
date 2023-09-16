@@ -8,3 +8,4 @@ shout out to:
 - scrollrevealjs
 - google fonts
 - freepik
+- frontend masters
