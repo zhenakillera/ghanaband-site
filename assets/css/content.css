@@ -1,0 +1,84 @@
+/* content */
+/* home */
+
+.home__title {
+  font-weight: var(--font-heavy);
+  margin-bottom: var(--mb-2);
+}
+
+.home__container {
+  row-gap: .5rem;
+}
+
+.home__img {
+  width: 280px;
+  justify-self: center;
+}
+
+.home__descr {
+  margin-bottom: var(--mb-3);
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--tangerine);
+  font-weight: var(--font-heavy);
+  color: #F0F7F4;
+  padding: 1rem 1.5rem;
+  border-radius: .4rem;
+  transition: .2s;
+}
+
+.button:hover {
+  background-color: var(--dark-tangerine);
+
+}
+
+
+/* shows */
+
+
+/* merch */
+.merch__container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.merch__data {
+  text-align: center;
+  padding: 1rem 1rem 2rem;
+  background-color: var(--card-color);
+  box-shadow: 0 2px 6px rgba(65, 33, 11, 0.1);
+  border-radius: 1rem;
+  transition: .2s;
+}
+
+.merch__data:hover {
+  box-shadow: 0 3px 12px rgba(65, 33, 11, 0.1);
+}
+
+.merch__img {
+  width: 180px;
+}
+
+.merch__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.button-link {
+  background: none;
+  padding: 0;
+  color: var(--tangerine);
+}
+
+.button-link:hover {
+  background: none;
+  color: var(--dark-tangerine);
+
+}
+
+.more__container {
+  display: flex;
+  margin-top: var(--mb-3);
+  justify-content: center;
+}

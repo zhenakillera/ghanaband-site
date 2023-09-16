@@ -7,12 +7,13 @@
   --tangerine: #E58F65;
   --dark-tangerine: #DE743F;
   --body-color: #F0F7F4;
+  --card-color: #fff;
 
   /* font variables */
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 2rem;
   --h2-font-size: 1.25rem;
-  --h2-font-size: 1.125rem;
+  --h3-font-size: 1.125rem;
   --regular-font-size: .938rem;
   --small-font-size: .813rem;
 
