@@ -91,7 +91,7 @@
 
 
 /* scroll top arrow */
-.scrolltop {
+.scroll-top {
   position: fixed;
   right: 1rem;
   bottom: -20%;
@@ -106,7 +106,7 @@
   visibility: hidden;
 }
 
-.scrolltop:hover {
+.scroll-top:hover {
   background-color: var(--dark-tangerine);
 }
 
