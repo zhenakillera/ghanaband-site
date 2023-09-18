@@ -1,7 +1,7 @@
 #### GHANA BAND landing page
 pretty real website for pretty fake band
 
-responsive, mobile-first, dark/light mode, vanila js/css-only
+mobile-first, responsive, vanila js/css-only, smooth scrolling
 
 shout out to:
 - boxicons
@@ -9,3 +9,5 @@ shout out to:
 - google fonts
 - freepik
 - frontend masters
+
+... and a couple of dozens smarties from stackoverflow
