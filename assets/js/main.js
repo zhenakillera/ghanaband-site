@@ -14,7 +14,6 @@ showMenu('nav-toggle','nav-menu')
 
 
 /* ==== HIDE MENU ==== */
-
 const navLink = document.querySelectorAll('.nav__link')
 
 // Each click removes show-menu
@@ -27,7 +26,6 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 /* ==== SCROLL TO SELECTED SECTION ==== */
-
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -71,3 +69,31 @@ function scrollTop(){
   if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollTop)
+
+
+/* SCROLL REVEAL ANIMATION */
+const sr = ScrollReveal({
+  distance: '35px',
+  duration: 1200,
+  reset: false,
+});
+
+sr.reveal(`
+  .home__data, 
+  .home__img, 
+  .section-title,
+  .merch__data,
+  .show__content,
+  .footer__content,
+  .more__container`, {
+  origin: 'top',
+  interval: 200,
+})
+
+sr.reveal(`.contact__content`, {
+  origin: 'left'
+})
+
+sr.reveal(`.contact__img`, {
+  origin: 'right'
+})

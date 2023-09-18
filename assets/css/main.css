@@ -56,3 +56,7 @@ img {
 .l-main {
   overflow: hidden;
 }
+
+.section {
+  margin-bottom: 5rem;
+}
