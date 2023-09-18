@@ -1,0 +1,23 @@
+.footer__content {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  color: var(--text-color);
+  margin-bottom: var(--mb-4);
+  
+
+}
+
+.footer__social {
+  color: var(--text-color);
+}
+
+.footer__social:hover {
+  color: var(--dark-tangerine);
+}
+
+.footer__copy {
+  text-align: center;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-light);
+  color: var(--text-color-light);
+}

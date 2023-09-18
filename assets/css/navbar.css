@@ -11,7 +11,7 @@
 }
 
 .nav__link, .nav__logo, .nav__toggle {
-  color: var(--black);
+  color: var(--text-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -99,7 +99,7 @@
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background-color: var(--tangerine);
+  background-color: var(--dark-tangerine);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .2s;

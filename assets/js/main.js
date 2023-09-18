@@ -52,7 +52,7 @@ window.addEventListener('scroll', scrollActive)
 function scrollHeader(){
   const nav = document.getElementById('header')
 
-  // The scroll is greater than 200 viewport height => 
+  // The scroll is greater than 10 viewport height => 
   // add the scroll-header class to the header tag
   if(this.scrollY >= 10) {
     nav.classList.add('scroll-header')

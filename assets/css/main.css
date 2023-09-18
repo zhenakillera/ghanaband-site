@@ -11,7 +11,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--regular-font-size);
   background-color: var(--body-color);
-  color: var(--black);
+  color: var(--text-color);
   line-height: 1.6;
 }
 
@@ -21,7 +21,7 @@ h1,h2,h3,ul,p {
 
 h1,h2,h3 {
   font-weight: var(--font-semi-bold);
-  color: var(--black);
+  color: var(--text-color);
 }
 
 ul {
@@ -45,7 +45,7 @@ img {
 
 .section-title, .section-title-center {
   font-size: var(--h2-font-size);
-  color: var(--black);
+  color: var(--text-color);
   text-align: center;
   margin-bottom: var(--mb-3);
 }
