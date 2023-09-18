@@ -31,3 +31,128 @@
     z-index: var(--z-fixed);
   }
 }
+
+@media screen and (max-width: 359px) {
+  .home__img,
+  .show__img,
+  .merch__img,
+  .contact__img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .home__container,
+  .contact__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+
+  .home__container {
+    padding: 5rem 0 0;
+  }
+
+  .home__img {
+    order: 1;
+  }
+
+  .home__img,
+  .contact__img {
+    width: 100%;
+  }
+  
+
+  .section-title-center {
+    text-align: initial;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .section {
+    margin-top: 5rem;
+  }
+
+  .footer {
+    margin: 0;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
+
+  .nav__list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__item {
+    margin-left: var(--mb-5);
+    margin-bottom: 0;
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+
+  .home__container {
+    padding: 7rem 2rem 0;
+  }
+
+  .contact__container {
+    padding: 0 2rem;
+  }
+
+  .shows__container {
+    grid-template-columns: repeat(3, 224px);
+    justify-content: center;
+  }
+
+  .show__content {
+    padding: .5rem 1.5rem 1.5rem;
+
+  }
+
+  .show__img{
+    width: 120px;
+    margin-bottom: var(--mb-1);
+  }
+
+  .show__city, .show__club{
+    text-align: initial;
+  }
+
+  .show__button{
+    padding: .75rem;
+  }
+
+  .contact{
+    background: none;
+  }
+
+  .contact__container{
+    background-color: var(--tangerine);
+    padding: 2rem;
+    border-radius: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 968px){
+  .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__img,
+  .contact__img {
+    width: 469px;
+  }
+
+  .home__container,
+  .contact__container {
+    column-gap: 5rem;
+  }
+}

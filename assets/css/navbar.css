@@ -75,18 +75,7 @@
 
 /* active section */
 .active-link{
-  position: relative;
-}
-
-.active-link::before{
-  content: '';
-  position: absolute;
-  bottom: -.75rem;
-  left: 45%;
-  width: 5px;
-  height: 5px;
-  background-color: var(--black);
-  border-radius: 50%;
+  color: var(--tangerine);
 }
 
 
@@ -118,4 +107,14 @@
 .show-scroll {
   visibility: visible;
   bottom: var(--mb-3);
+}
+
+
+/* dark/light mode toggle */
+.change-mode {
+  position: absolute;
+  right: 1.5rem;
+  top: 2.2rem;
+  display: flex;
+  font-size: 2rem;
 }

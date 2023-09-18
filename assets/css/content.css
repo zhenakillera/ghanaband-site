@@ -2,6 +2,7 @@
 /* home */
 
 .home__title {
+  font-size: var(--h1-font-size);
   font-weight: var(--font-heavy);
   margin-bottom: var(--mb-2);
 }
@@ -38,7 +39,7 @@
 /* shows */
 .shows__container {
   grid-template-columns: repeat(2, 1fr);
-  /* padding-bottom: 1rem; */
+  /* padding-bottom: 2rem; */
 }
 
 .show__content {
@@ -96,8 +97,6 @@
 }
 
 
-
-
 /* merch */
 .merch__container {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -135,4 +134,42 @@
   background: none;
   color: var(--dark-tangerine);
 
+}
+
+.contact {
+  background-color: var(--tangerine);
+}
+
+.contact__title, .contact__descr {
+  color: #fff
+}
+
+.contact__descr {
+  text-align: center;
+  margin-bottom: var(--mb-4);
+}
+
+.contact__direction {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.contact__input {
+  width: 90%;
+  outline: none;
+  border: none;
+  font-size: var(--regular-font-size);
+  font-family: var(--body-font);
+}
+
+.contact__input::placeholder {
+  font-family: var(--body-font);
+}
+
+.contact__img {
+  width: 280px;
+  justify-self: center;
 }
