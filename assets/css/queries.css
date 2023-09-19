@@ -13,8 +13,6 @@
 
 /* menu */
 
-
-
 @media screen and (max-width: 359px) {
   .home__img,
   .show__img,
@@ -37,6 +35,8 @@
 
   .home__img {
     order: 1;
+    translate: 30px;
+
   }
 
   .home__img,
@@ -83,6 +83,11 @@
 
   .home__container {
     padding: 7rem 2rem 0;
+  }
+
+  .home__img {
+    translate: 60px;
+
   }
 
   .contact__container {
